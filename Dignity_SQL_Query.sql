@@ -21,7 +21,7 @@ FROM dignity_booking$
 SELECT *
 FROM dignity_booking$
 WHERE Revenue is null or ID is null or Volume is null 
---An empty table clarifies the no null values exists for booking data
+--An empty table clarifies that no null values exists for booking data
 -- Identify duplicates in the 'ID' column
 SELECT ID, COUNT(*)
 FROM dignity_booking$
